@@ -10,7 +10,7 @@ The main author is [Stefan Mayer](http://github.com/stm/JGU-letter).
 
 ## How to Compile
 
-- First, you need the logo file from the [ZDV](http://www.zdv.uni-mainz.de/uni-intern/vorlagen/logos/JGU-Logo_farbe_cmyk.pdf) in the subdirectory `/logo`. 
+- First, you need to place the logo file from the [ZDV](http://www.zdv.uni-mainz.de/uni-intern/vorlagen/logos/JGU-Logo_farbe_cmyk.pdf) in the subdirectory `/logo`. 
 - Then adapt the personal letter class option (in this example `john-doe.lco`) according to your personal data.
 - You also need the Adobe Frutiger fonts installed in LaTeX. Otherwise, you have to select a different font in line 25 of `design/jgu.lco`.
 - To compile, use the file `letter_jgu.tex` with `pdflatex`:
